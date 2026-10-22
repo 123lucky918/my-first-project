@@ -20,7 +20,7 @@
 | [outputs/figures/](outputs/figures/) | 经核对、可公开的图及图注 |
 | [docs/](docs/) | 研究方案、协作规范和决策记录 |
 
-完整目录在初始化PR合并后可用。
+各目录的 README 说明文件用途与维护要求。
 
 ## 开始使用与复现
 

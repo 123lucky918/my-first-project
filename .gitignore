@@ -1,0 +1,33 @@
+# 本地数据与敏感配置（即使去标识化也不默认公开）
+/data/raw/
+/data/processed/
+/data/private/
+/data/local/
+*.sav
+*.zsav
+*.sas7bdat
+*.dta
+*.rds
+*.RData
+*.rda
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/analysis/config.local.*
+/local/
+
+# 临时输出；正式核对的图表可提交
+/outputs/tmp/
+~$*
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+.Rhistory
+.Rproj.user/
+__pycache__/
+.ipynb_checkpoints/
+.venv/
